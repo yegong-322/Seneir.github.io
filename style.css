@@ -66,3 +66,9 @@ img {
 
   font-size: 23px;
 }
+
+#weather {
+  text-align: center;
+  color: lightblue;
+  margin: -1.8% 0 2% 0;
+}
