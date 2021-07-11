@@ -7,36 +7,44 @@
     <title>🌷졸업작품 🌷</title>
   </head>
   <body>
+    <!-- 시계 -->
+    <h2 id="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
       <input
+        class="inputBox1"
         required
         maxlength="15"
         type="text"
         placeholder="What is your name?"
       />
-      <input type="submit" value="Login" />
+      <input id="loginbutton" type="submit" value="Login" />
     </form>
     <h1 class="hidden" id="greeting"></h1>
 
-    <!-- 시계 -->
-    <h2 id="clock">00:00:00</h2>
+    <!-- ToDo 리스트 -->
+    <div class="todo">
+      <form id="todo-form">
+        <input
+          class="inputBox2"
+          type="text"
+          placeholder="Write a To Do and Press Enter!"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <!-- 지역 날씨 API -->
+    <!-- <div id="weather">
+      <span> </span>
+      <span></span>
+    </div> -->
 
     <!-- 명언, 이미지 -->
     <div id="quote">
-      <span> </span>
-      <span></span>
-    </div>
-
-    <!-- ToDo 리스트 -->
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
-
-    <!-- 지역 날씨 API -->
-    <div id="weather">
-      <span> </span>
-      <span></span>
+      <div id="text">
+        <span></span>
+        <span></span>
+      </div>
     </div>
 
     <script src="grade.js"></script>

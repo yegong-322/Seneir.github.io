@@ -5,3 +5,64 @@ body {
   font-family: sans-serif;
   background-color: beige;
 }
+
+aside {
+  width: 30%;
+  float: right;
+  background-color: bisque;
+}
+.inputBox1 {
+  margin-left: 39%;
+  width: 15%;
+  height: 5%;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid white;
+}
+
+.inputBox2 {
+  /* margin: 50%; */
+  width: 30%;
+  height: 5%;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid white;
+}
+
+#loginbutton {
+  width: 4%;
+  background-color: rgb(250, 215, 225);
+  border-radius: 18px;
+}
+
+#clock {
+  margin-left: 40%;
+  font-size: 50px;
+  color: white;
+  text-shadow: -1px 0 rgb(224, 218, 218), 0 1px rgb(224, 218, 218),
+    1px 0 rgb(224, 218, 218), 0 -1px rgb(224, 218, 218);
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 55%;
+}
+
+#text {
+  text-align: center;
+}
+
+.todo {
+  margin-left: 40%;
+}
+
+#text {
+  color: rgb(245, 206, 206);
+
+  font-size: 23px;
+}
